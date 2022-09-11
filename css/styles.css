@@ -55,6 +55,10 @@ ul {
     gap: 20px;
 }
 
+li {
+    color: orange;
+}
+
 .first-section-image {
     width: 800px;
     height: 300px;
