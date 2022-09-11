@@ -113,3 +113,42 @@ third section
     text-align: right;
     font-weight: 800;
 }
+
+/*
+fourth section
+*/
+
+.fourth-section {
+    padding: 70px 250px 70px 250px;
+}
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 15px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-column {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border: 0.5px solid #E5E7EB;
+    padding: 5px 15px;
+}
+
+.first-text {
+    font-size: 18px;
+}
+
+.second-text {
+    font-size: 16px;
+}
