@@ -60,7 +60,7 @@ ul {
 second section
 */
 .second-section {
-    padding: 15px 280px 90px 280px
+    padding: 15px 280px 90px 280px;
 }
 .second-section-header {
     font-size: 36px;
@@ -93,4 +93,23 @@ second section
 .image-and-subtext div {
     text-align: center;
     width: 150px;
+}
+
+/*
+third section
+*/
+.third-section {
+    background-color: #E5E7EB;
+    padding: 50px 300px 50px 300px;
+}
+.quote em{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 800;
 }
