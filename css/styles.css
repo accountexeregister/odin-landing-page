@@ -16,6 +16,7 @@ first section
 .text {
     display: flex;
     flex-flow: column wrap;
+    gap: 10px;
 }
 .first-text {
     font-size: 48px;
@@ -32,6 +33,7 @@ first section
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .second-text, .button-1, li, img {
@@ -145,11 +147,11 @@ fourth section
     padding: 5px 15px;
 }
 
-.first-text {
+.left-column .first-text {
     font-size: 18px;
 }
 
-.second-text {
+.left-column .second-text {
     font-size: 16px;
 }
 
