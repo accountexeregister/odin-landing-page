@@ -152,3 +152,16 @@ fourth section
 .second-text {
     font-size: 16px;
 }
+
+/*
+last section
+*/
+
+.last-section {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
