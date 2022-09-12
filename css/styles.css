@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', "Times New Roman", sans-serif;
 }
+
 /*
 first section
 */
@@ -19,12 +20,15 @@ first section
     display: flex;
     flex-flow: column wrap;
     gap: 10px;
+    flex: auto;
 }
 .first-text {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
+
+
 
 .header-line {
     display: flex;
@@ -36,11 +40,19 @@ first section
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    flex: 50;
 }
 
+.header-links {
+    flex: auto;
+}
 .second-text, .button-1, li, img {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.button-1 {
+    flex: auto;
 }
 
 .button-1 {
@@ -62,6 +74,7 @@ li {
 .first-section-image {
     width: 800px;
     height: 300px;
+    flex: auto;
 }
 
 /*
@@ -85,6 +98,7 @@ second section
     
 }
 .image-and-subtext {
+    flex: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,11 +110,13 @@ second section
     height: 150px;
     border-radius: 12px;
     border: 5px solid rgb(0, 153, 255);
+    flex: auto;
 }
 
 .image-and-subtext div {
     text-align: center;
     width: 150px;
+    flex: auto;
 }
 
 /*
@@ -143,6 +159,7 @@ fourth section
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: auto;
 }
 
 .right-column {
@@ -151,6 +168,7 @@ fourth section
     border-radius: 5px;
     border: 0.5px solid #E5E7EB;
     padding: 5px 15px;
+    flex: auto;
 }
 
 .left-column .first-text {
@@ -159,6 +177,10 @@ fourth section
 
 .left-column .second-text {
     font-size: 16px;
+}
+
+.first-text, .second-text {
+    flex: auto;
 }
 
 /*
